@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+.row {
+    font-size: 0px;
+}
+
+div.row div {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+}
+
+div.brick {
+    background-color: blue;
+}
+
+div.coin {
+    background: url("moneda.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div.cereza {
+    background: url("cereza.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div#pac {
+    background: url("pac.gif");
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div#ghost1 {
+    background: url("ghost1.gif");
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div#ghost2 {
+    background: url("ghost2.gif");
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
